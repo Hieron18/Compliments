@@ -200,7 +200,9 @@ body._lock {
 .button._fw {
   width: 100%;
 }
-
+.product__box{
+  padding: 0px !important;
+}
 .select {
   position: relative;
 }
@@ -836,9 +838,9 @@ body.ie ._ibg img {
   transform: scale(0);
   transition: all 0.3s ease 0s;
   background-color: #fff;
-  padding: 50px;
+  padding: 20px;
   width: 100%;
-  max-width: 800px;
+  max-width: 1110px;
 }
 .popup__close {
   width: 15px;
@@ -2378,6 +2380,127 @@ body.ie ._ibg img {
   color: #6B6B6B;
 }
 
+.information__content {
+  display: flex;
+  gap: 40px;
+}
+.information__artext {
+  text-align: center;
+  margin-bottom: 21px;
+}
+.information__artext p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #6B6B6B;
+}
+.information__right {
+  width: 100%;
+}
+.information__happened {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.information__tabs .tabs__navigation {
+  margin-bottom: 32px;
+}
+.information__tabs .tabs__title {
+  max-width: 100%;
+  width: 100%;
+}
+.information__entrance {
+  max-width: 350px;
+  margin: 0px auto;
+}
+.information__entrance .checkbox__text {
+  white-space: normal;
+}
+.information__entrance-head {
+  text-align: center;
+  margin-bottom: 21px;
+}
+.information__entrance-head h2 {
+  font-size: 32px;
+  line-height: 37px;
+}
+.information__entrance-field {
+  margin-bottom: 21px;
+}
+.information__entrance-input {
+  margin-bottom: 8px;
+}
+.information__entrance-input input {
+  width: 100%;
+  border: 1px solid #D6B3B1;
+  height: 50px;
+  padding: 0px 20px;
+}
+.information__entrance-input:last-child {
+  margin-bottom: 0px;
+}
+.information__entrance-check {
+  margin-bottom: 21px;
+}
+.information__entrance-button {
+  margin-bottom: 21px;
+}
+.information__entrance-button button {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+  width: 100%;
+  border-radius: 300px;
+}
+.information__entrance-link {
+  text-align: center;
+}
+.information__entrance-link a {
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #6B6B6B;
+}
+
+.happened__images {
+  margin-bottom: 21px;
+}
+.happened__head {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.happened__head h2 {
+  font-size: 32px;
+  line-height: 37px;
+  color: #464646;
+}
+.happened__text {
+  text-align: center;
+  margin-bottom: 21px;
+}
+.happened__text p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #6B6B6B;
+}
+.happened__button {
+  margin-bottom: 8px;
+}
+.happened__button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 245px;
+  height: 60px;
+  border-radius: 300px;
+}
+.happened__button_white a {
+  border: 2px solid #AD6A75;
+  color: #AD6A75;
+}
+
 .product__content {
   position: relative;
   margin-bottom: 80px;
@@ -2953,6 +3076,10 @@ body.ie ._ibg img {
   }
 }
 @media (max-width: 991.98px) {
+  .information__left {
+    display: none;
+  }
+
   .discount__content {
     justify-content: center;
   }
@@ -3204,6 +3331,11 @@ body.ie ._ibg img {
   }
 }
 @media (max-width: 767.98px) {
+  .information__entrance-head h2, .happened__head h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
   .discount__content {
     padding: 40px 20px;
   }
