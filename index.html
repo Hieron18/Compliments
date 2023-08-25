@@ -154,7 +154,7 @@
                   </svg>
             </div>
          </a>
-         <a href="account.html" class="header__entrance _main-link">
+         <a href="#entrance" class="header__entrance _main-link _popup-link">
             
             <div class="header__entrance-image">
                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1005,7 +1005,362 @@
       </div>
    </div>
 </footer>
-			
+				<div class="popup popup_entrance">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close">x</div>
+			<div class="information">
+				<div class="information__content">
+					<div class="information__left">
+						<div class="information__image">
+							<img src="img/foto-popup.png" alt="">
+						</div>
+					</div>
+					<div class="information__right">
+						<div class="information__tabs _tabs">
+							<nav class="tabs__navigation">
+								<button type="button" class="tabs__title _tabs-item _active">Войти</button>
+								<button type="button" class="tabs__title _tabs-item">Зарегистрироваться</button>
+							</nav>
+							<div class="tabs__content">
+								<div class="tabs__body _tabs-block _active">
+									<form class="information__entrance">
+										<div class="information__entrance-head">
+											<h2>Войдите в свой аккаунт</h2>
+										</div>
+										<div class="information__entrance-field">
+											<div class="information__entrance-input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Номер телефона" class="input">
+											</div>
+											<div class="information__entrance-input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Пароль" class="input">
+											</div>
+										</div>
+										<div class="information__entrance-check">
+											<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="c_1"><span class="checkbox__text">Я соглашаюсь
+												с Положением о персональных данных и конфиденциальности.</span></label>
+										</div>
+										<div class="information__entrance-button">
+											<button href="#login-account" type="submit" class="button _popup-link _main-link">Войти</button>
+										</div>
+										<div class="information__entrance-link">
+											<a href="#restore" class="_popup-link">Забыли пароль?</a>
+										</div>
+									</form>
+								</div>
+								<div class="tabs__body _tabs-block">
+									<form class="information__entrance">
+										<div class="information__entrance-head">
+											<h2>Зарегистрируйтесь</h2>
+										</div>
+										<div class="information__entrance-field">
+											<div class="information__entrance-input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="input">
+											</div>
+											<div class="information__entrance-input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Номер телефона" class="input">
+											</div>
+											<div class="information__entrance-input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="E-mail" class="input">
+											</div>
+											<div class="information__entrance-input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Пароль" class="input">
+											</div>
+										</div>
+										<div class="information__entrance-check">
+											<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="c_2"><span class="checkbox__text">Согласен(-на) на получение новостной рассылки (дает постоянную скидку 5%)</span></label>
+										</div>
+										<div class="information__entrance-check">
+											<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="c_1"><span class="checkbox__text">Я соглашаюсь
+												с Положением о персональных данных и конфиденциальности.</span></label>
+										</div>
+										<div class="information__entrance-button">
+											<button href="#registered" type="submit" class="button _popup-link _main-link">Зарегистрироваться</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="popup popup_restore">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close">x</div>
+			<div class="information">
+				<div class="information__content">
+					<div class="information__left">
+						<div class="information__image">
+							<img src="img/foto-popup.png" alt="">
+						</div>
+					</div>
+					<div class="information__right">
+						<div class="information__tabs _tabs">
+							<nav class="tabs__navigation">
+								<button type="button" href="#entrance" class="tabs__title _popup-link">Войти</button>
+								<button type="button" href="#entrance" class="tabs__title _popup-link">Зарегистрироваться</button>
+							</nav>
+							<div class="tabs__content">
+								<div class="tabs__body">
+									<form class="information__entrance">
+										<div class="information__entrance-head">
+											<h2>Востановление пароля</h2>
+										</div>
+										<div class="information__artext">
+											<p>Введите зарегистрированный номер телефона</p>
+										</div>
+										<div class="information__entrance-field">
+											<div class="information__entrance-input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Номер телефона" class="input">
+											</div>
+										</div>
+										<div class="information__entrance-check">
+											<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+											<label for="c_3"><span class="checkbox__text">Я соглашаюсь
+												с Положением о персональных данных и конфиденциальности.</span></label>
+										</div>
+										<div class="information__entrance-button">
+											<button href="#restore-code" type="submit" class="button _popup-link _main-link">Отправить код</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="popup popup_restore-code">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close">x</div>
+			<div class="information">
+				<div class="information__content">
+					<div class="information__left">
+						<div class="information__image">
+							<img src="img/foto-popup.png" alt="">
+						</div>
+					</div>
+					<div class="information__right">
+						<div class="information__tabs _tabs">
+							<nav class="tabs__navigation">
+								<button type="button" href="#entrance" class="tabs__title _popup-link">Войти</button>
+								<button type="button" href="#entrance" class="tabs__title _popup-link">Зарегистрироваться</button>
+							</nav>
+							<div class="tabs__content">
+								<div class="tabs__body">
+									<form class="information__entrance">
+										<div class="information__entrance-head">
+											<h2>Востановление пароля</h2>
+										</div>
+										<div class="information__artext">
+											<p>Введите код из СМС</p>
+										</div>
+										<div class="information__entrance-field">
+											<div class="information__entrance-input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Код" class="input">
+											</div>
+										</div>
+										<div class="information__entrance-button">
+											<button href="#recover-password" type="submit" class="button _popup-link _main-link">Подтвердить</button>
+										</div>
+										<div class="information__entrance-link">
+											<a href="#" class="_popup-link">Отправить код повторно</a>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="popup popup_recover-password">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close">x</div>
+			<div class="information">
+				<div class="information__content">
+					<div class="information__left">
+						<div class="information__image">
+							<img src="img/foto-popup.png" alt="">
+						</div>
+					</div>
+					<div class="information__right">
+						<div class="information__tabs _tabs">
+							<nav class="tabs__navigation">
+								<button type="button" href="#entrance" class="tabs__title _popup-link">Войти</button>
+								<button type="button" href="#entrance" class="tabs__title _popup-link">Зарегистрироваться</button>
+							</nav>
+							<div class="tabs__content">
+								<div class="tabs__body">
+									<form class="information__entrance">
+										<div class="information__entrance-head">
+											<h2>Востановление пароля</h2>
+										</div>
+										<div class="information__artext">
+											<p>Введите новый пароль</p>
+										</div>
+										<div class="information__entrance-field">
+											<div class="information__entrance-input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Новый пароль" class="input">
+											</div>
+											<div class="information__entrance-input">
+												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Повторите пароль" class="input">
+											</div>
+										</div>
+										<div class="information__entrance-button">
+											<button href="#new-password" type="submit" class="button _popup-link _main-link">Сохранить и войти</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="popup popup_registered">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close">x</div>
+			<div class="information">
+				<div class="information__content">
+					<div class="information__left">
+						<div class="information__image">
+							<img src="img/happened.png" alt="">
+						</div>
+					</div>
+					<div class="information__right">
+						<div class="information__happened happened">
+							<div class="happened__images">
+								<img src="img/balloons.png" alt="">
+							</div>
+							<div class="happened__head">
+								<h2>Спасибо за <br> регистрацию</h2>
+							</div>
+							<div class="happened__text">
+								<p>Приятных покупок</p>
+							</div>
+							<div class="happened__buttons">
+								<div class="happened__button happened__button_red">
+									<a href="#" class="_main-link">В каталог</a>
+								</div>
+								<div class="happened__button happened__button_white">
+									<a href="#">В личный кабинет</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="popup popup_login-account">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close">x</div>
+			<div class="information">
+				<div class="information__content">
+					<div class="information__left">
+						<div class="information__image">
+							<img src="img/happened.png" alt="">
+						</div>
+					</div>
+					<div class="information__right">
+						<div class="information__happened happened">
+							<div class="happened__images">
+								<img src="img/balloons.png" alt="">
+							</div>
+							<div class="happened__head">
+								<h2>Вы успешно вошли <br> в аккаунт</h2>
+							</div>
+							<div class="happened__text">
+								<p>Приятных покупок</p>
+							</div>
+							<div class="happened__buttons">
+								<div class="happened__button happened__button_red">
+									<a href="#" class="_main-link">В каталог</a>
+								</div>
+								<div class="happened__button happened__button_white">
+									<a href="#">В личный кабинет</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="popup popup_new-password">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close">x</div>
+			<div class="information">
+				<div class="information__content">
+					<div class="information__left">
+						<div class="information__image">
+							<img src="img/happened.png" alt="">
+						</div>
+					</div>
+					<div class="information__right">
+						<div class="information__happened happened">
+							<div class="happened__images">
+								<img src="img/balloons.png" alt="">
+							</div>
+							<div class="happened__head">
+								<h2>Новый пароль <br> сохранен</h2>
+							</div>
+							<div class="happened__text">
+								<p>Вы можете войти в свой аккаунт <br> с новыми данными</p>
+							</div>
+							<div class="happened__buttons">
+								<div class="happened__button happened__button_red">
+									<a href="#" class="_main-link">Войти</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+				
 <script src="js/vendors.min.js"></script>
 <script src="js/app.min.js"></script>
 		</div>
